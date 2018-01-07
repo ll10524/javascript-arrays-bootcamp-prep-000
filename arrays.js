@@ -6,12 +6,12 @@ var chocolateBars = [
 ]
 
 function addElementToBeginningOfArray(array, element) {
+  var newArray = array;
   array.unshift(element);
   return array;
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  var newArray = array;
-  newArray.unshift(element);
-  return Array;
+  array.unshift(element);
+  return array;
 }
